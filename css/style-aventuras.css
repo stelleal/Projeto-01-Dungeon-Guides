@@ -55,7 +55,7 @@ header nav ul #aventuras {
     display: block;
 }
 
-.menu {
+.menu, .main1 .filtros ul, .main2 .produtos {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -83,7 +83,78 @@ header nav ul #aventuras {
     transition: 300ms;
 }
 
+/* MAIORIA MAIN */
 
+.main1 .filtros ul {
+    background-color: #a5afba;
+    color: #10161a ;
+    text-align: center;
+    padding: 30px 0;
+    justify-content: space-evenly;
+}
+
+.main1 .filtros ul li a {
+    padding: 10px;
+}
+
+#advall {
+    background-color: #9f040c;
+    color: #ebebeb;
+}
+
+.main2 .produtos {
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 40px;
+}
+
+
+.main2 .produtos img {
+    max-width: 260px;
+}
+
+.main .produtos p, .main .produtos h2 {
+    padding: 10px;
+    width: 260px;
+    margin: 10px;
+
+}
+
+.main .produtos h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.main .produtos p {
+    font-size: 0.9rem;
+    background-color: #3366ff;
+    color: #ebebeb;
+    
+}
+
+.main2 .produtos div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main2 .produtos div div {
+    flex-direction: column;
+    text-align: center;
+}
+
+.main2 .produtos .indisponivel p {
+    background-color: #979aa4;
+
+}
+
+.filtros h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    padding: 35px 0 5px 0;
+}
 
 
 
