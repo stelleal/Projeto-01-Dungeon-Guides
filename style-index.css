@@ -45,7 +45,11 @@ header {
 }
 
 header nav {
-    background-color: #979aa4;
+    background-color: #26282a;
+}
+
+header nav ul li a {
+    color: #ebebeb;
 }
 
 .header a, i {
@@ -63,8 +67,8 @@ header nav {
 }
 
 #inicio {
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    border-bottom: 2px solid #ebebeb;
+    border-top: 2px solid #ebebeb;
 }
 
 .user ul {
@@ -90,4 +94,35 @@ header nav {
 
 .destaques img {
     width: 550px;
+}
+
+.niveis {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.niveis div {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.niveis img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.niveis p {
+    max-width: 200px;
+    text-align: center;
+}
+
+.filtro h2 {
+background-color: #979aa4;
+color: #10161a ;
+text-align: center;
+padding: 10px 0;
 }
