@@ -37,7 +37,7 @@ header {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 5px 10px;
@@ -48,14 +48,13 @@ header nav {
     background-color: #26282a;
 }
 
-header nav ul li a {
+header nav ul li a,  i, .navfinal ul li a  {
     color: #ebebeb;
+    padding: 5px;
 }
 
 .header a, i {
-    color: #ebebeb;
     display: block;
-    padding: 5px;
 }
 
 .menu {
@@ -73,7 +72,7 @@ header nav ul li a {
 
 .user ul {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 .destaques div {
@@ -96,7 +95,7 @@ header nav ul li a {
     width: 550px;
 }
 
-.niveis, .niveis div, .classicos .capas, .dgguides {
+.niveis, .niveis div, .classicos .capas, .dgguides, .sociais ul, .navfinal ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -160,4 +159,33 @@ margin-bottom: 30px;
     font-size: 12px;
     text-align: center;
     color: #ebebeb;
+}
+
+.footer {
+    background-color: #26282a;
+}
+
+.footer .termos {
+    background-color: #090809 ;
+}
+
+.sociais ul, .navfinal ul {
+    justify-content: center;
+}
+
+.navfinal ul li a, .footer .termos h5 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.footer1, .footer1 .sociais, .footer1 .navfinal {
+    padding: 20px
+}
+
+.footer .termos h5{
+    font-size: 0.5rem;
+    color: #a4afba;
+    padding: 20px;
 }
