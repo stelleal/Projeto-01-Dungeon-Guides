@@ -82,10 +82,10 @@ header nav ul li a {
 
 .destaques {
     margin: 0 auto;
+    padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-    margin: 0 auto;
 }
 
 .destaques .waterbundle {
@@ -96,19 +96,17 @@ header nav ul li a {
     width: 550px;
 }
 
-.niveis {
+.niveis, .niveis div, .classicos .capas {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    gap: 10px;
 }
 
-.niveis div {
-    display: flex;
-    align-items: center;
-    flex-wrap:wrap;
+/* .niveis div, .classicos .capas {
     justify-content: center;
-}
+} */
 
 .niveis img {
     width: 120px;
@@ -120,9 +118,20 @@ header nav ul li a {
     text-align: center;
 }
 
-.filtro h2 {
+.divisor {
 background-color: #979aa4;
 color: #10161a ;
 text-align: center;
 padding: 10px 0;
+margin-top: 30px;
+margin-bottom: 30px;
 }
+
+.classicos .capas div a img{
+    max-width: 350px;
+}
+
+.classicos .capas {
+    justify-content: space-between;
+}
+
