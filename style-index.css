@@ -13,22 +13,39 @@ font-family: 'Roboto Slab', serif; 300,400, 700; */
     list-style: none;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
 
+.main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
 .logo img {
-    height: 100px;
+    height: 70px;
+}
+
+header {
+    background-color: #090809;
 }
 
 .header {
-    background-color: #090809;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px 10px;
     border-bottom: 1px solid #1cd2c0;
+}
+
+header nav {
+    background-color: #979aa4;
 }
 
 .header a, i {
@@ -38,11 +55,39 @@ a {
 }
 
 .menu {
+    padding: 10px;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 500;
+}
+
+#inicio {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
 }
 
 .user ul {
     display: flex;
     gap: 10px;
+}
+
+.destaques div {
+    max-width: 600px;
+}
+
+.destaques {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.destaques .waterbundle {
+    grid-row: 1 / 3 ;
+}
+
+.destaques img {
+    width: 550px;
 }
