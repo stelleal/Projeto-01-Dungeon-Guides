@@ -91,6 +91,7 @@ header nav ul #aventuras {
     text-align: center;
     padding: 30px 0;
     justify-content: space-evenly;
+    font-weight: 400;
 }
 
 .main1 .filtros ul li a {
@@ -100,6 +101,7 @@ header nav ul #aventuras {
 #advall {
     background-color: #9f040c;
     color: #ebebeb;
+    font-weight: 500;
 }
 
 .main2 .produtos {
@@ -220,6 +222,10 @@ header nav ul li a:hover, .footer i:hover, .navfinal ul li a:hover, .header i:ho
         display:block ;
         text-align: center;
     }
+    .main1 .filtros ul {
+        flex-direction: column;
+        gap: 20px;
+    }
 
     header nav ul li a {
         padding: 10px 90px;
@@ -233,9 +239,15 @@ header nav ul li a:hover, .footer i:hover, .navfinal ul li a:hover, .header i:ho
         padding: 10px;
     }
 
+    .main2 .produtos div {
+        justify-content: center;
+    }
+
 
 }
 
 @media only screen and (max-width:1109px) {
-
+    .main2 .produtos {
+        justify-content: center;
+    }
 }
