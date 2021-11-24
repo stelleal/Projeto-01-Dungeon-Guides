@@ -1,0 +1,17 @@
+/* Informações de apoio
+font-family: 'Roboto', sans-serif; 300, 400, 500, 700;
+font-family: 'Roboto Condensed', sans-serif; 300, 400, 400 italic, 700;
+font-family: 'Roboto Slab', serif; 300,400, 700; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
