@@ -13,10 +13,10 @@ font-family: 'Roboto Slab', serif; 300,400, 700; */
     list-style: none;
 }
 
-body {
+/* body {
     height: 100vh;
     width: 100%;
-}
+} */
 
 a {
     text-decoration: none;
@@ -69,6 +69,7 @@ header nav ul #inicio {
     justify-content: center;
     gap: 50px;
     font-weight: 500;
+    flex-wrap: wrap;
 }
 
 #inicio {
@@ -232,6 +233,69 @@ transition: 300ms;
 }
 
 .dgguides:hover {
-        filter: brightness(120%);
+    filter: brightness(120%);
+}
 
+@media only screen and (max-width:480px) {
+    
+    .main {
+        margin: 0 auto;
+    }
+
+    .menu {
+        display:block ;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        padding: 10px 90px;
+    }
+
+    header nav ul li {
+        padding: 10px;
+    }
+
+    .destaques img, .classicos .capas div a img {
+        max-width: 320px;
+    }
+    
+    .destaques {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    
+    }
+
+    .niveis, .niveis div {
+        flex-direction: column;
+    }
+    .niveis div {
+        gap: 0px;
+    }
+
+    .niveis {
+        gap: 25px;
+    }
+    
+    .classicos .capas {
+        justify-content: center;
+    }
+        
+    .divisor {
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 20px 0;
+    }    
+
+    .niveis p {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    header nav ul li a,  i, .navfinal ul li a {
+        padding: 10px;
+    }
+    
 }
