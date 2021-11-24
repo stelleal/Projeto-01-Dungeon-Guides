@@ -236,7 +236,7 @@ transition: 300ms;
     filter: brightness(120%);
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:549px) {
     
     .main {
         margin: 0 auto;
@@ -265,7 +265,6 @@ transition: 300ms;
         flex-wrap: wrap;
         gap: 10px;
         align-items: center;
-    
     }
 
     .niveis, .niveis div {
@@ -298,4 +297,25 @@ transition: 300ms;
         padding: 10px;
     }
     
+}
+
+@media only screen and (max-width:1109px) {
+    .destaques {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .classicos .capas div a img {
+        max-width: 320px;
+    }
+
+    .classicos .capas {
+        justify-content: space-evenly;
+    }
+
+
+
 }
