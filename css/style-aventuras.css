@@ -99,11 +99,13 @@ header nav ul #aventuras {
     transition: 300ms;
 }
 
+/* ADICIONADO EM CADA HTML RESPECTIVO COMO INLINE
+
 #advall {
     background-color: #9f040c;
     color: #ebebeb;
     font-weight: 500;
-}
+} */
 
 .main2 .produtos {
     justify-content: space-between;
