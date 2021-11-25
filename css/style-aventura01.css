@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
     color: #000;
     list-style: none;
-    /* border: none !important; */
+    border: none !important;
 }
 
 a {
@@ -92,6 +92,7 @@ header nav ul #sobre {
 .produto {
     background: rgba(0, 0, 0, 0.774);
     backdrop-filter: blur(5px);
+    box-shadow: 0px 5px 5px 0px #000 inset;
 }
 
 .produto, .produto .imagens .minis  {
@@ -110,6 +111,7 @@ header nav ul #sobre {
     max-width: 450px;
     height: auto;
     /* background-color: #c7d0da; */
+    filter: drop-shadow(0px 0px 10px #000);
 }
 
 .produto .imagens img {
@@ -125,6 +127,7 @@ header nav ul #sobre {
 
 .produto .imagens .minis a {
     max-width: 80px;
+    filter: grayscale(50%);
 }
 
 .produto .imagens .minis {
@@ -153,7 +156,7 @@ header nav ul #sobre {
 }
 
 .produto .resumo p {
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 0;
     line-height: 35px;
     color: #ebebeb;
@@ -170,8 +173,34 @@ header nav ul #sobre {
 .detalhes {
     margin: 0 auto;
     max-width: 1140px;
+    border: 2px solid #3366ff;
+    padding: 50px 0;
 }
 
+.detalhes h2, .detalhes p, .detalhes ul li {
+    font-size: 18px;
+    line-height: 220%;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.detalhes h2 {
+    font-size: 22px;
+    color: #9f040c;
+}
+
+.detalhes ul li::marker {
+    color: #9f040c;
+}
+
+.detalhes p {
+    margin: 15px 0;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 /* MAIORIA FOOTER */
