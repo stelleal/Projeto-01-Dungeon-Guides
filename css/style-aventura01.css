@@ -82,12 +82,12 @@ header nav ul #sobre {
 
 /* MAIORIA MAIN */
 
-.fundo {
+/* .fundo {
     background-image: url(/Imagens/Mine-Cover.jpg);
     background-repeat: no-repeat;
     background-position: 80% 0%;
     background-size: cover;
-}
+} */
 
 .produto {
     background: rgba(0, 0, 0, 0.774);
