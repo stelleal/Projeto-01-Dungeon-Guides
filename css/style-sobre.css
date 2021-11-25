@@ -134,7 +134,7 @@ details summary::before {
     color: #ebebeb; 
   }
   
-  details[open] summary::before { 
+details[open] summary::before { 
     content:"\2B9F"; 
     color: #ebebeb; 
   }
@@ -198,8 +198,10 @@ details summary::before {
     font-size: 20px;
 }
 
-
-
+.sobre p, details summary, details p, .contato fieldset {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 /* MAIORIA FOOTER */
 
@@ -261,14 +263,9 @@ header nav ul li a:hover, .footer i:hover, .navfinal ul li a:hover, .header i:ho
     filter: brightness(110%);
 }
 
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:549px) {
-
-    .main {
-        margin: 0 auto;
-    }
 
     .menu {
         display:block ;
@@ -287,6 +284,13 @@ header nav ul li a:hover, .footer i:hover, .navfinal ul li a:hover, .header i:ho
         padding: 10px;
     }
 
+    .main h2 {
+        font-size: 25px;
+    }
+
+    .sobre p, details summary, details p {
+        font-size: 20px;
+    }
 
 }
 
