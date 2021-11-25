@@ -92,12 +92,13 @@ header nav ul #sobre {
 .produto {
     background: rgba(0, 0, 0, 0.774);
     backdrop-filter: blur(5px);
-    box-shadow: 0px 5px 5px 0px #000 inset;
+    box-shadow: inset -8px 30px 35px -29px #000;
+    margin: -2px auto;
 }
 
 .produto, .produto .imagens .minis  {
     border: solid 5px black;
-    padding: 50px 0 30px 0;
+    padding: 80px 0 60px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -146,6 +147,7 @@ header nav ul #sobre {
 .produto .resumo {
     border: 2px solid rgb(0, 255, 0);
     max-width: 450px;
+    padding: 0 0 30px 0;
 }
 
 .produto .resumo h1 {
@@ -157,7 +159,7 @@ header nav ul #sobre {
 
 .produto .resumo p {
     font-size: 22px;
-    margin: 20px 0;
+    margin: 20px 0 40px 0;
     line-height: 35px;
     color: #ebebeb;
 }
@@ -172,9 +174,9 @@ header nav ul #sobre {
 
 .detalhes {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1190px;
     border: 2px solid #3366ff;
-    padding: 50px 0;
+    padding: 50px 50px;
 }
 
 .detalhes h2, .detalhes p, .detalhes ul li {
@@ -269,9 +271,32 @@ header nav ul li a:hover, .footer i:hover, .navfinal ul li a:hover, .header i:ho
         padding: 10px;
     }
 
+    .produto .resumo h1 {
+        font-size: 40px;
+    }
+
+    .produto .resumo p {
+        padding: 0 20px;
+    }
+
+    .detalhes h2, .produto .resumo p {
+        font-size: 18px;
+    }
+    
+    .detalhes p, span, .detalhes ul li {
+        font-size: 14px;
+    }
+
+    .produto .imagens .minis {
+        gap: 5px;
+    }
+        
 
 }
 
-@media only screen and (max-width:1109px) {
+@media only screen and (max-width:949px) {
+    .produto .resumo {
+        text-align: center;
+
 
 }
