@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
     color: #000;
     list-style: none;
-    border: none !important;
+    /* border: none !important; */
 }
 
 a {
@@ -97,7 +97,7 @@ header nav ul #sobre {
 }
 
 .produto, .produto .imagens .minis  {
-    border: solid 5px black;
+    /* border: solid 5px black; */
     padding: 80px 0 60px 0;
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +107,7 @@ header nav ul #sobre {
 }
 
 .produto .imagens {
-    border: 2px solid rgb(0, 68, 255);
+    /* border: 2px solid rgb(0, 68, 255); */
     width: 100%;
     max-width: 450px;
     height: auto;
@@ -116,7 +116,7 @@ header nav ul #sobre {
 }
 
 .produto .imagens img {
-    border: 2px solid rgb(181, 201, 1);
+    /* border: 2px solid rgb(181, 201, 1); */
     width: 100%;
     height: auto;
 }
@@ -131,7 +131,7 @@ header nav ul #sobre {
 }
 
 .produto .imagens .minis {
-    border: 2px solid rgb(202, 0, 0);
+    /* border: 2px solid rgb(202, 0, 0); */
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -144,7 +144,7 @@ header nav ul #sobre {
 }
 
 .produto .resumo {
-    border: 2px solid rgb(0, 255, 0);
+    /* border: 2px solid rgb(0, 255, 0); */
     max-width: 450px;
     padding: 0 0 30px 0;
 }
@@ -175,7 +175,7 @@ header nav ul #sobre {
 .detalhes {
     margin: 0 auto;
     max-width: 1190px;
-    border: 2px solid #3366ff;
+    /* border: 2px solid #3366ff; */
     padding: 50px 50px;
 }
 
