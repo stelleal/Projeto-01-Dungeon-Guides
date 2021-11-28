@@ -87,7 +87,7 @@ header nav ul #sobre {
 
 .imgdiv {
     height: 250px;
-    background-image: url(/Imagens/Imagem-Legal.png);
+    background-image: url(../Imagens/Imagem-Legal.png);
     background-repeat: no-repeat;
     background-position: center 80%;
     background-size: cover;
