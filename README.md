@@ -3,6 +3,8 @@
 
 <h1>Projeto de Estudo: Dungeon Guides</h1>
 
+<h2><a href="https://stelleal.github.io/Projeto-01-Dungeon-Guides/html/index.html">Acesse o projeto aqui</a></h2>
+
 <h2>Projeto de site de catálogo de produtos, destinado à treinamento de HTML e CSS, proposto por Gama Academy (Gama Experience).</h2>
 
 ![License: MIT](https://img.shields.io/github/license/stelleal/Projeto-01-Dungeon-Guides?style=for-the-badge)
